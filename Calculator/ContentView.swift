@@ -1,20 +1,27 @@
-//
-//  ContentView.swift
-//  Calculator
-//
-//  Created by 추승주 on 2/24/25.
-//
-
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     
     @State private var totalNumber: String = "0"
+    @State private var batteryLevel: Float = 0.0
+    @State private var currentTime: String = ""
     
     var body: some View {
         ZStack{
             Color.black.ignoresSafeArea()
             VStack{
+                HStack{
+                    Button(action: {
+                        print("안녕")}){
+                            Text("iii")
+                                .font(.system(size: 25))
+                                .foregroundColor(Color.button3)
+                                .rotationEffect(.degrees(-90))
+                        }
+                    Spacer()
+                }
+                .padding()
                 Spacer()
                 HStack{
                     Spacer()
@@ -202,7 +209,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .font(.system(size: 33))
                     }
-                
+                    
                     Button {
                         
                     } label: {
