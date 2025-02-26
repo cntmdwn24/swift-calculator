@@ -29,7 +29,7 @@ struct ContentView: View {
                     } label: {
                         Text("AC")
                             .frame(width: 80, height: 80)
-                            .background(Color.button1)
+                            .background(Color.button2)
                             .cornerRadius(40)
                             .foregroundColor(.white)
                             .font(.system(size: 33))
@@ -37,9 +37,9 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("+/-")
                             .frame(width: 80, height: 80)
-                            .background(Color.button1)
+                            .background(Color.button2)
                             .cornerRadius(40)
                             .foregroundColor(.white)
                             .font(.system(size: 33))
@@ -47,9 +47,9 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("%")
                             .frame(width: 80, height: 80)
-                            .background(Color.button1)
+                            .background(Color.button2)
                             .cornerRadius(40)
                             .foregroundColor(.white)
                             .font(.system(size: 33))
@@ -57,51 +57,9 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("÷")
                             .frame(width: 80, height: 80)
-                            .background(Color.button1)
-                            .cornerRadius(40)
-                            .foregroundColor(.white)
-                            .font(.system(size: 33))
-                    }
-                }
-                HStack{
-                    Button {
-                        
-                    } label: {
-                        Text("AC")
-                            .frame(width: 80, height: 80)
-                            .background(Color.button1)
-                            .cornerRadius(40)
-                            .foregroundColor(.white)
-                            .font(.system(size: 33))
-                    }
-                    Button {
-                        
-                    } label: {
-                        Text("AC")
-                            .frame(width: 80, height: 80)
-                            .background(Color.button1)
-                            .cornerRadius(40)
-                            .foregroundColor(.white)
-                            .font(.system(size: 33))
-                    }
-                    Button {
-                        
-                    } label: {
-                        Text("AC")
-                            .frame(width: 80, height: 80)
-                            .background(Color.button1)
-                            .cornerRadius(40)
-                            .foregroundColor(.white)
-                            .font(.system(size: 33))
-                    }
-                    Button {
-                        
-                    } label: {
-                        Text("AC")
-                            .frame(width: 80, height: 80)
-                            .background(Color.button1)
+                            .background(Color.button3)
                             .cornerRadius(40)
                             .foregroundColor(.white)
                             .font(.system(size: 33))
@@ -111,7 +69,7 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("7")
                             .frame(width: 80, height: 80)
                             .background(Color.button1)
                             .cornerRadius(40)
@@ -121,7 +79,7 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("8")
                             .frame(width: 80, height: 80)
                             .background(Color.button1)
                             .cornerRadius(40)
@@ -131,7 +89,7 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("9")
                             .frame(width: 80, height: 80)
                             .background(Color.button1)
                             .cornerRadius(40)
@@ -141,51 +99,9 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("×")
                             .frame(width: 80, height: 80)
-                            .background(Color.button1)
-                            .cornerRadius(40)
-                            .foregroundColor(.white)
-                            .font(.system(size: 33))
-                    }
-                }
-                HStack{
-                    Button {
-                        
-                    } label: {
-                        Text("AC")
-                            .frame(width: 80, height: 80)
-                            .background(Color.button1)
-                            .cornerRadius(40)
-                            .foregroundColor(.white)
-                            .font(.system(size: 33))
-                    }
-                    Button {
-                        
-                    } label: {
-                        Text("AC")
-                            .frame(width: 80, height: 80)
-                            .background(Color.button1)
-                            .cornerRadius(40)
-                            .foregroundColor(.white)
-                            .font(.system(size: 33))
-                    }
-                    Button {
-                        
-                    } label: {
-                        Text("AC")
-                            .frame(width: 80, height: 80)
-                            .background(Color.button1)
-                            .cornerRadius(40)
-                            .foregroundColor(.white)
-                            .font(.system(size: 33))
-                    }
-                    Button {
-                        
-                    } label: {
-                        Text("AC")
-                            .frame(width: 80, height: 80)
-                            .background(Color.button1)
+                            .background(Color.button3)
                             .cornerRadius(40)
                             .foregroundColor(.white)
                             .font(.system(size: 33))
@@ -195,7 +111,7 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("4")
                             .frame(width: 80, height: 80)
                             .background(Color.button1)
                             .cornerRadius(40)
@@ -205,7 +121,7 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("5")
                             .frame(width: 80, height: 80)
                             .background(Color.button1)
                             .cornerRadius(40)
@@ -215,7 +131,7 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("6")
                             .frame(width: 80, height: 80)
                             .background(Color.button1)
                             .cornerRadius(40)
@@ -225,9 +141,84 @@ struct ContentView: View {
                     Button {
                         
                     } label: {
-                        Text("AC")
+                        Text("-")
+                            .frame(width: 80, height: 80)
+                            .background(Color.button3)
+                            .cornerRadius(40)
+                            .foregroundColor(.white)
+                            .font(.system(size: 33))
+                    }
+                }
+                HStack{
+                    Button {
+                        
+                    } label: {
+                        Text("1")
                             .frame(width: 80, height: 80)
                             .background(Color.button1)
+                            .cornerRadius(40)
+                            .foregroundColor(.white)
+                            .font(.system(size: 33))
+                    }
+                    Button {
+                        
+                    } label: {
+                        Text("2")
+                            .frame(width: 80, height: 80)
+                            .background(Color.button1)
+                            .cornerRadius(40)
+                            .foregroundColor(.white)
+                            .font(.system(size: 33))
+                    }
+                    Button {
+                        
+                    } label: {
+                        Text("3")
+                            .frame(width: 80, height: 80)
+                            .background(Color.button1)
+                            .cornerRadius(40)
+                            .foregroundColor(.white)
+                            .font(.system(size: 33))
+                    }
+                    Button {
+                        
+                    } label: {
+                        Text("+")
+                            .frame(width: 80, height: 80)
+                            .background(Color.button3)
+                            .cornerRadius(40)
+                            .foregroundColor(.white)
+                            .font(.system(size: 33))
+                    }
+                }
+                HStack{
+                    Button {
+                        
+                    } label: {
+                        Text("0")
+                            .frame(width: 160, height: 80)
+                            .background(Color.button1)
+                            .cornerRadius(80)
+                            .foregroundColor(.white)
+                            .font(.system(size: 33))
+                    }
+                
+                    Button {
+                        
+                    } label: {
+                        Text(".")
+                            .frame(width: 80, height: 80)
+                            .background(Color.button1)
+                            .cornerRadius(40)
+                            .foregroundColor(.white)
+                            .font(.system(size: 33))
+                    }
+                    Button {
+                        
+                    } label: {
+                        Text("=")
+                            .frame(width: 80, height: 80)
+                            .background(Color.button3)
                             .cornerRadius(40)
                             .foregroundColor(.white)
                             .font(.system(size: 33))
